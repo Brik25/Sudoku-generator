@@ -35,8 +35,8 @@ INSL:
                 StartEnd.Add "End", .Cells(j + 2, i + 2).Address(False, False)
                 RangeDictionary.Add "Range" & Count, StartEnd
                 Count = Count + 1
-            Next
-        Next
+            Next j
+        Next i
         
         'Variation Value
         For Each RangeName In RangeDictionary
@@ -54,7 +54,7 @@ INSB:
             
             For i = 1 To 9
                 RandNum.Add i, ""
-            Next
+            Next i
 
             countBlock = 0
             countALL = countALL + 1
