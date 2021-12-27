@@ -28,7 +28,7 @@ INSL:
         countALL = 0
         Count = 0
         'Create block's in Table
-            For i = startTable.Column To EndTable.Column Step 3
+        For i = startTable.Column To EndTable.Column Step 3
             For j = startTable.Row To EndTable.Row Step 3
                 Set StartEnd = CreateObject("Scripting.Dictionary")
                 StartEnd.Add "Start", .Cells(j, i).Address(False, False)
