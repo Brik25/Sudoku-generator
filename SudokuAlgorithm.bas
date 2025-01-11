@@ -1,5 +1,5 @@
 Attribute VB_Name = "SudokuAlgorithm"
-'Autor: Gainullin Ramil
+'Autor: Gaynullin Ramil
 Option Explicit
 
 Sub AutoSudoku()
